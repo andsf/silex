@@ -44,7 +44,7 @@ php.iniのtimezoneを下記のように変更する
 ```
 date.timezone = "Asia/Tokyo"
 ```
-## ※synced_folderを使用する場合
+### ※synced_folderを使用する場合
 
 ```
 $cd /var/www/html
