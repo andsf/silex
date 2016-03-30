@@ -1,6 +1,6 @@
 # Silex 環境構築
 ## 基本情報
-* PHP 5.６
+* PHP 5.6
 * Silex 2.0
 * Mysql 5.6
 
