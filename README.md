@@ -24,13 +24,27 @@ $cd silex
 $curl -s http://getcomposer.org/installer | php
 ```
 
+#### 3.composer install
+
+```
+php composer.phar install
+//または
+composer install
+```
+
 #### 3.ドキュメントルート設定<br>
 
 DocumentRootを下記の通りに変更する
 ```
 /var/www/html/silex/public
 ```
-**synced_folderを使用する場合**
+
+#### 4.デフォルトタイムゾーン変更
+php.iniのtimezoneを下記のように変更する
+```
+date.timezone = "Asia/Tokyo"
+```
+## ※synced_folderを使用する場合
 
 ```
 $cd /var/www/html
@@ -41,16 +55,22 @@ DocumentRootを下記の通りに変更する
 /var/www/html/silex
 ```
 
-#### 4.デフォルトタイムゾーン変更
+#### 1.composerをインストール(composerの設定をしている方は不要)
+
+```
+$cd silex
+$curl -s http://getcomposer.org/installer | php
+```
+
+#### 2.composer install
+
+```
+php composer.phar install
+//または
+composer install
+```
+#### 3.デフォルトタイムゾーン変更
 php.iniのtimezoneを下記のように変更する
 ```
 date.timezone = "Asia/Tokyo"
-```
-
-#### 5.composer install
-
-```
-php composer.php install
-//または
-composer install
 ```
